@@ -1,10 +1,11 @@
 import React from 'react';
+import { NuKenzieProvider } from './context';
 
 function App() {
   return (
-    <div>
+    <NuKenzieProvider>
       
-    </div>
+    </NuKenzieProvider>
   );
 }
 
