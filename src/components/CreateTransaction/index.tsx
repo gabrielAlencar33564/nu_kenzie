@@ -3,8 +3,8 @@ import { v4 as uuidv4 } from "uuid";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useDispatch } from "react-redux";
 import { useForm } from "react-hook-form";
-import { Input } from "../input";
-import { IInputValues } from "../input/interface";
+import { Input } from "../Input";
+import { IInputValues } from "../Input/interface";
 import { createTransaction } from "../../store/features/transactions/transactionSlice";
 
 export const CreateTransaction = () => {
