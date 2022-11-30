@@ -1,12 +1,12 @@
-import React from 'react';
-import { NuKenzieProvider } from './context';
-import { RoutesPage } from './routes';
+import { RoutesPage } from "./routes";
+import { store } from "./store";
+import { Provider } from "react-redux";
 
 function App() {
   return (
-    <NuKenzieProvider>
+    <Provider store={store}>
       <RoutesPage />
-    </NuKenzieProvider>
+    </Provider>
   );
 }
 
